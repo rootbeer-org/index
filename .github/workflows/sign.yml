@@ -1,0 +1,101 @@
+name: Sign
+on:
+  workflow_dispatch:
+    inputs:
+      run-id:
+        description: The pdr run whose rb-index-entries artifact to merge, if any
+        type: string
+        default: ""
+  schedule:
+    - cron: "17 4 * * *"
+
+permissions: {}
+
+concurrency:
+  group: sign
+  cancel-in-progress: false
+
+jobs:
+  sign:
+    name: Sign
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment: index
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: rootbeer-org/setup-rb@bf50460fdf9e1b17508117150b26b624b840d08c
+      - name: Mint a token to read pdr's run
+        id: app
+        if: inputs.run-id != ''
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1
+        with:
+          client-id: ${{ vars.ROOTBEER_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.ROOTBEER_BOT_PRIVATE_KEY }}
+          owner: rootbeer-org
+          repositories: pdr
+          permission-actions: read
+      - name: Check the run is a push to pdr's CI branch
+        if: inputs.run-id != ''
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+          RUN_ID: ${{ inputs.run-id }}
+          CI_BRANCH: ${{ vars.RB_CI_BRANCH || 'sandbox' }}
+        run: |
+          run=$(gh api "repos/rootbeer-org/pdr/actions/runs/$RUN_ID")
+          jq --exit-status --arg branch "$CI_BRANCH" \
+            '.event == "push" and .head_branch == $branch and .path == ".github/workflows/ci.yml"' \
+            <<< "$run" > /dev/null || {
+            echo "pdr run $RUN_ID isn't a push to $CI_BRANCH" >&2
+            exit 1
+          }
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+        if: inputs.run-id != ''
+        with:
+          name: rb-index-entries
+          repository: rootbeer-org/pdr
+          run-id: ${{ inputs.run-id }}
+          github-token: ${{ steps.app.outputs.token }}
+          path: ${{ runner.temp }}/entries
+      - name: Sign
+        env:
+          RB_INDEX_KEY: ${{ secrets.RB_INDEX_KEY }}
+          ENTRIES: ${{ inputs.run-id != '' && format('{0}/entries', runner.temp) || '' }}
+        run: |
+          key="$RUNNER_TEMP/online.der"
+          printf '%s' "$RB_INDEX_KEY" | base64 --decode > "$key"
+          # shellcheck disable=SC2086
+          rb drv sign . --key "$key" $ENTRIES
+          rm "$key"
+      - name: Commit the signed index
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add metadata targets
+          git commit --quiet --message "chore: sign the index${RUN_ID:+ from pdr run $RUN_ID}"
+          git push
+        env:
+          RUN_ID: ${{ inputs.run-id }}
+
+  deploy:
+    name: Deploy
+    needs: sign
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
