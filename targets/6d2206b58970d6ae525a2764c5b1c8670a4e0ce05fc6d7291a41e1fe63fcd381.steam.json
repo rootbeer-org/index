@@ -1,0 +1,1 @@
+{"name":"steam","description":"Buy, download, and play PC games","license":"LicenseRef-Proprietary","default":{"aarch64-macos":"6.0"},"versions":{"6.0":{"aarch64-macos":{"key":"xn6u3vfayjjgivxlq2liweyolypoeuys","manifest":"sha256:f52f5615982f7d99ed6fb981cd7709c08165d57c626800ddac343209da36a61a","apps":{"Steam.app":"Steam.app"}}}}}

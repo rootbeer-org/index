@@ -1,0 +1,1 @@
+{"name":"copilot-money","description":"Track personal finances and budgets","license":"LicenseRef-Proprietary","default":{"aarch64-macos":"6.4.4+332-80a7fa78"},"versions":{"6.4.4+332-80a7fa78":{"aarch64-macos":{"key":"nkijzjjbdoqchxv5r7f5r6i7fvv7qbvg","manifest":"sha256:ac47001fcafbdc9aa4af498488d94a3537dc40c9aa77ca291912a6dd6f4a10af","apps":{"Copilot.app":"Copilot.app"}}}}}

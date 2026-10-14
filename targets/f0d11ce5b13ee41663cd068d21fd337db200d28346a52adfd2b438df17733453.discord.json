@@ -1,0 +1,1 @@
+{"name":"discord","description":"Chat with voice, video, and text","license":"LicenseRef-Proprietary","default":{"aarch64-macos":"0.0.412"},"versions":{"0.0.412":{"aarch64-macos":{"key":"47pc4jh4gg5phjzbqyafhh25go3yzoax","manifest":"sha256:1db443c771c31e8ff97b69692207c891e0fbf68c6cb03915938c5323b22dbd73","apps":{"Discord.app":"Discord.app"}}}}}

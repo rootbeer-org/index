@@ -1,0 +1,1 @@
+{"name":"modrinth","description":"Launch Minecraft and manage mods","license":"GPL-3.0-only","default":{"aarch64-macos":"0.21.6"},"versions":{"0.21.6":{"aarch64-macos":{"key":"3bx6qoyui3hbp22ijr5g53dp454drpag","manifest":"sha256:a3ed8c79f7ef8fed0218efb39d1fd51b32a1310d88f0d71555a3d1bc097ae13c","apps":{"Modrinth App.app":"Modrinth App.app"}}}}}

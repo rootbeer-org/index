@@ -1,0 +1,1 @@
+{"name":"ghostty","description":"Run a GPU-accelerated terminal with native UI","license":"MIT","default":{"aarch64-macos":"1.3.1"},"versions":{"1.3.1":{"aarch64-macos":{"key":"s5f4wc2ro5zclzmlfskhmr5mhhwsmrsc","manifest":"sha256:b5093007f776a38eefef28c2265d6a1406458d09b22983a72d63523835c3365d","apps":{"Ghostty.app":"Ghostty.app"}}}}}

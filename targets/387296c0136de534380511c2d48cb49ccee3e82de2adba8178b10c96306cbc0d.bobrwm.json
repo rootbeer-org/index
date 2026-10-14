@@ -1,0 +1,1 @@
+{"name":"bobrwm","description":"Tiling window manager for macOS","license":"MIT","default":{"aarch64-macos":"0.1.0-main+572265d"},"versions":{"0.1.0-main+572265d":{"aarch64-macos":{"key":"5ibjbgt6fgbavyawmlrwwit2y76jhui2","manifest":"sha256:e868458af0b19f0ae81fd52a43c5d67af5146bcbb7ae9c37ef119465ba46241c","bins":["bobrwm"],"apps":{"Bobrwm.app":"Bobrwm.app"}}}}}

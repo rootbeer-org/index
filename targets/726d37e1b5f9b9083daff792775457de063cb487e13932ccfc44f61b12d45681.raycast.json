@@ -1,0 +1,1 @@
+{"name":"raycast","description":"Launch apps and run extensions from a command bar","license":"LicenseRef-Proprietary","default":{"aarch64-macos":"2.4.1.0"},"versions":{"2.4.1.0":{"aarch64-macos":{"key":"otxs2kglsymlpss2ahb4szqxjcofhjpz","manifest":"sha256:506abddd529b653c7e9a3b455f0d7759d44d52cc5ceb9bf6be4f694ddf073a74","apps":{"Raycast.app":"Raycast.app"}}}}}

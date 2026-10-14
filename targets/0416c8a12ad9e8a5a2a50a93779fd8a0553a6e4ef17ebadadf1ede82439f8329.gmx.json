@@ -1,0 +1,1 @@
+{"name":"gmx","description":"Multiplex persistent terminal sessions in Ghostty","license":"NOASSERTION","default":{"aarch64-macos":"0.1.10"},"versions":{"0.1.10":{"aarch64-macos":{"key":"jrfi3fuovhshe2p2rklz4kly6y23i3ui","manifest":"sha256:2be9d1785d78bf8d0f17982fcac95079965f3daa017c55fd8a977ced096d053b","bins":["gmx"]}}}}

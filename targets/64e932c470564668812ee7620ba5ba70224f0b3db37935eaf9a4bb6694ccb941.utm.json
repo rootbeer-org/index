@@ -1,0 +1,1 @@
+{"name":"utm","description":"Run virtual machines on macOS","license":"Apache-2.0","default":{"aarch64-macos":"4.7.5"},"versions":{"4.7.5":{"aarch64-macos":{"key":"uogyynm5jpa7t55t3keoms7lcrnn4jdw","manifest":"sha256:9922e219e429e258bb2a89deae102af13b0dab03f479f72d429055238c337c73","apps":{"UTM.app":"UTM.app"}}}}}

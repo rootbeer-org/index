@@ -1,0 +1,1 @@
+{"name":"orbstack","description":"Run Docker containers and Linux machines on macOS","license":"LicenseRef-Proprietary","default":{"aarch64-macos":"2.2.3+20963"},"versions":{"2.2.3+20963":{"aarch64-macos":{"key":"m3k2zyc7x2jwuhfs5meiz5g6vq4swkkr","manifest":"sha256:8a4016e18fad69490e5b9e661e968cffc197f240f9cc9df1def50cc5e1491ed3","apps":{"OrbStack.app":"OrbStack.app"}}}}}

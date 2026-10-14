@@ -1,0 +1,1 @@
+{"name":"cleanshot","description":"Capture screenshots and screen recordings","license":"LicenseRef-Proprietary","default":{"aarch64-macos":"5.0"},"versions":{"5.0":{"aarch64-macos":{"key":"nnr2fkqg4v7rsbu232ufgc5nbcdiacp4","manifest":"sha256:f70faac27d190bc81af96bc71928f26c5acf33da61e599444f11d394097de536","apps":{"CleanShot X.app":"CleanShot X.app"}}}}}
