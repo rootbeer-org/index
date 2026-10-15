@@ -1,0 +1,1 @@
+{"name":"yubico-piv-tool","description":"YubiKey PIV tool and the ykcs11 PKCS#11 module","license":"BSD-2-Clause","default":{"aarch64-macos":"2.7.3"},"versions":{"2.7.3":{"aarch64-macos":{"key":"u6s2qpo3famvzy6xifekdgnetkc34bea","manifest":"sha256:792f19585fff5160627bc5c874c8858532c655b9301fceb909dc0ebddace7fc8","bins":["yubico-piv-tool"]}}}}
