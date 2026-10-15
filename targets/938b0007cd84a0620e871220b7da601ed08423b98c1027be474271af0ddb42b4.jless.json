@@ -1,0 +1,1 @@
+{"name":"jless","description":"View and explore JSON in the terminal","license":"MIT","default":{"aarch64-macos":"0.9.0"},"versions":{"0.9.0":{"aarch64-macos":{"key":"ygq4tksxd3no4nedgcibxzlf7vmv6hh5","manifest":"sha256:ba7874cfd1330011d10b52fb290f5a54db81d4cffc860022c4802f5eb4e94dea","bins":["jless"]}}}}
