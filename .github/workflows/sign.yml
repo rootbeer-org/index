@@ -36,18 +36,17 @@ jobs:
           owner: rootbeer-org
           repositories: pdr
           permission-actions: read
-      - name: Check the run is a push to pdr's CI branch
+      - name: Check the run is a push to pdr's main
         if: inputs.run-id != ''
         env:
           GH_TOKEN: ${{ steps.app.outputs.token }}
           RUN_ID: ${{ inputs.run-id }}
-          CI_BRANCH: ${{ vars.RB_CI_BRANCH || 'sandbox' }}
         run: |
           run=$(gh api "repos/rootbeer-org/pdr/actions/runs/$RUN_ID")
-          jq --exit-status --arg branch "$CI_BRANCH" \
-            '.event == "push" and .head_branch == $branch and .path == ".github/workflows/ci.yml"' \
+          jq --exit-status \
+            '.event == "push" and .head_branch == "main" and .path == ".github/workflows/ci.yml"' \
             <<< "$run" > /dev/null || {
-            echo "pdr run $RUN_ID isn't a push to $CI_BRANCH" >&2
+            echo "pdr run $RUN_ID isn't a push to main" >&2
             exit 1
           }
       - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
