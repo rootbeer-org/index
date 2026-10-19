@@ -1,0 +1,1506 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 32,
+    "expires": "2026-11-18T06:31:33.878263873Z",
+    "targets": {
+      "delta.json": {
+        "length": 826,
+        "hashes": {
+          "sha256": "a92571d5849ce885e1ca92316d54618e28f0f6f1675096059b9c84ffe22eaaa0"
+        },
+        "custom": {
+          "aliases": [
+            "git-delta"
+          ]
+        }
+      },
+      "typos.json": {
+        "length": 823,
+        "hashes": {
+          "sha256": "7662b77146a130135d8c1580730dbe1ca19c912878fcedd0ffb74dc55e433a03"
+        }
+      },
+      "zstd.json": {
+        "length": 1133,
+        "hashes": {
+          "sha256": "0700a7158bb6f5266c9756206c110dcef54d395b492c8c0035ae8dfb4ba3ea3d"
+        }
+      },
+      "gum.json": {
+        "length": 786,
+        "hashes": {
+          "sha256": "eaef7a6484d338f27f69ae8c3efa54b3e89d6a6a90f950a7e82df9d5feb86870"
+        }
+      },
+      "datagrip.json": {
+        "length": 517,
+        "hashes": {
+          "sha256": "9baca07487ab03f70cadc061dc365cc8773ecee24cd0d3638b3a0bcaf66cf091"
+        }
+      },
+      "libssh2.json": {
+        "length": 730,
+        "hashes": {
+          "sha256": "396ad9555cc060768a79489f104595fab01a633d7b1ed4dce496ca8094437f49"
+        }
+      },
+      "golangci-lint.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "0a46327d3184b33e11b5fddc2faf6f86b396bdc47845c72f1098553e1c73846e"
+        }
+      },
+      "mdbook.json": {
+        "length": 801,
+        "hashes": {
+          "sha256": "80ba7023a4991afc053e9a83cb33a901acbd3d4fb7fbf00f954802e4ae7f7164"
+        }
+      },
+      "nats.json": {
+        "length": 796,
+        "hashes": {
+          "sha256": "17de0c52813ca0e6bbe7c014fd7699ef92e02cfd9562b184b79410abd3a26c33"
+        }
+      },
+      "goreleaser.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "0b5d111b9b14cffd1caada8d6b4d7342066ebd11cb836fac6ab558e11eee3475"
+        }
+      },
+      "sops.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "b813a868887c1359fb3d055c74299e177802943b978b03ce510bd0e36b867836"
+        }
+      },
+      "telnet.json": {
+        "length": 824,
+        "hashes": {
+          "sha256": "0b0d599b8e2ca81a933eefa7a04fd3e1c22c936cc868e69eb7126e9cf30d20b5"
+        }
+      },
+      "zmx.json": {
+        "length": 758,
+        "hashes": {
+          "sha256": "ead485cf8d816656b9d0509579276e5abb6259b364b0f57f6013796486fc1332"
+        }
+      },
+      "mockery.json": {
+        "length": 804,
+        "hashes": {
+          "sha256": "856686a1b8d05953d4e654917f99f9b702e2a804b3e2165433e63846ba1756cf"
+        }
+      },
+      "kubectx.json": {
+        "length": 855,
+        "hashes": {
+          "sha256": "efb0f1a4788f6273fa71fa898cc71dbbc5baa801b15b3921148710522d6a96c6"
+        }
+      },
+      "openssh.json": {
+        "length": 1166,
+        "hashes": {
+          "sha256": "7c56c9f022d425590a79b2c421c2f92247634b45b8db31f2618e7a4845f3c481"
+        }
+      },
+      "sqlc.json": {
+        "length": 771,
+        "hashes": {
+          "sha256": "6f9c8a67620d216ce3167389ee93ff52a68fa2b88daf5119b1750f32d58934ee"
+        }
+      },
+      "kubectl.json": {
+        "length": 818,
+        "hashes": {
+          "sha256": "e0ab954d8e36a81757ef941bbfe6882c19c6a7a76658e423dca422b1f51c2c6a"
+        }
+      },
+      "dasel.json": {
+        "length": 797,
+        "hashes": {
+          "sha256": "9fd814eb0444f1df58bcc92b1b1f8a1b4158ccb41106c2f5496643474ef82369"
+        }
+      },
+      "kind.json": {
+        "length": 802,
+        "hashes": {
+          "sha256": "23ebd6b5e5f894333b78381824ab297129c4e588791ee15983fc10ff13db1968"
+        }
+      },
+      "tailscale.json": {
+        "length": 873,
+        "hashes": {
+          "sha256": "ced3213228cc966a22ce5003249db3415daeca6dd6524baaa13a831051bc1369"
+        }
+      },
+      "keyutils.json": {
+        "length": 698,
+        "hashes": {
+          "sha256": "96916c5aa1cbccaa80654b6695578b54fcb110b428c71490f12c650dcc0e64e2"
+        }
+      },
+      "typst.json": {
+        "length": 801,
+        "hashes": {
+          "sha256": "ec834ecaa6493b3005236ae95a0d8fab9747a1747e1ebb4a2c5d608102718191"
+        }
+      },
+      "choose.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "925af29b4cdd974996696d31d440056ae5c9ff21a296df8f2dea49405f870881"
+        }
+      },
+      "kompose.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "7617e232f9632262c56cfdcd8f3231b1ea4c61bf318b360f46cb1b9e88b2439d"
+        }
+      },
+      "fd.json": {
+        "length": 789,
+        "hashes": {
+          "sha256": "2ab494e42ae77fe463aadef8cd2ecb56bcdb82f2b5875f938791174dcba2b0a2"
+        },
+        "custom": {
+          "aliases": [
+            "fd-find"
+          ]
+        }
+      },
+      "air.json": {
+        "length": 805,
+        "hashes": {
+          "sha256": "21eb20f55310e3665f837e392ebe0b843d3722dd5f16630a29c097551355b086"
+        }
+      },
+      "glow.json": {
+        "length": 789,
+        "hashes": {
+          "sha256": "21e87641506605cf644a9628d4426ca15c647f0a753fe3b76499d9e23895c3bb"
+        }
+      },
+      "libpsl.json": {
+        "length": 798,
+        "hashes": {
+          "sha256": "038dbf2c08b869b8bd5633386160617635340f301729bb829d7233e00d555811"
+        }
+      },
+      "nushell.json": {
+        "length": 778,
+        "hashes": {
+          "sha256": "a695f57be4e74bc519a64be0e607a117afa705b81bee9fb768c6fbd517eaf2f3"
+        }
+      },
+      "actionlint.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "504f9d08499a11c6a33ab26bd737c208bc3f79c7a25fe5ad64468937f6616746"
+        }
+      },
+      "fx.json": {
+        "length": 771,
+        "hashes": {
+          "sha256": "09b3eb24e4c1385438cc9fe8565e4d7d8d7d69b7d510ca7daef31db3042ab174"
+        }
+      },
+      "ldns.json": {
+        "length": 1054,
+        "hashes": {
+          "sha256": "408bc94cca833d396e70cda72b86df8ac0ed5b7499ff295d56670308a1edfcf8"
+        }
+      },
+      "brotli.json": {
+        "length": 789,
+        "hashes": {
+          "sha256": "b3dcb785d28ec28edc1f6cb207d65088dadd8f3f15087ff7ec54d9610096afd1"
+        }
+      },
+      "tealdeer.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "a89f633410ae63f41ae7793ea133b1939bf1737dc86cc5ec63af4826a429e3ff"
+        },
+        "custom": {
+          "aliases": [
+            "tldr"
+          ]
+        }
+      },
+      "mc.json": {
+        "length": 860,
+        "hashes": {
+          "sha256": "fd72e15d585749138472a74ecbea6b06278161cd2a1c3f197ac9e953def0396d"
+        }
+      },
+      "hyperfine.json": {
+        "length": 817,
+        "hashes": {
+          "sha256": "79f77185653edcce58d2e954e1d8279f6307c98465cbacaf8ffa01459ce9be53"
+        }
+      },
+      "steam.json": {
+        "length": 459,
+        "hashes": {
+          "sha256": "6aaf712f52376b59c5da4ec5f536d85abb6381de94dd70ff82d6d60343b85cbd"
+        }
+      },
+      "openssl.json": {
+        "length": 1538,
+        "hashes": {
+          "sha256": "133f1de60270149ba256f7a6e44175466f7f2496941a6c688d1dffe2e59051cc"
+        }
+      },
+      "step.json": {
+        "length": 814,
+        "hashes": {
+          "sha256": "3fc724c6b7c9b3bc0c778329148a7e65e851b613dcd9ebf543ad01516e6cec14"
+        }
+      },
+      "libedit.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "8f153b0ecf0916c3e9ee9082fd715a78612255eb929ada5d522ffc0733f4199e"
+        }
+      },
+      "modrinth.json": {
+        "length": 459,
+        "hashes": {
+          "sha256": "2403fcdcc704d26d6bf86c8823acf348f018d19a00843ac1b0c7ffeb02a983e0"
+        }
+      },
+      "ngtcp2.json": {
+        "length": 751,
+        "hashes": {
+          "sha256": "1eb6405f5b4e108962923716ec69d07c809ff041b4ad0ad110480d6f9fb035cc"
+        }
+      },
+      "perl.json": {
+        "length": 1061,
+        "hashes": {
+          "sha256": "e0d4d8b4920b21cf98812cac5ae9739e5496b71c65a57e79e3a8c54dea3091d9"
+        }
+      },
+      "libiconv.json": {
+        "length": 831,
+        "hashes": {
+          "sha256": "f8fe1e0c9ae2bf45a328abf08e212a9a8f3bdb6f2e64ccfd084428aaafc8b8a7"
+        }
+      },
+      "nano.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "b6ae27d2d37155a662fa242e731378895751883bc344b34831b01b31973ca989"
+        }
+      },
+      "buf.json": {
+        "length": 796,
+        "hashes": {
+          "sha256": "9e487e3caab8a5a83f4258605bff7a59ffc14d8a4ae000f63324ab375a47646b"
+        }
+      },
+      "zsh.json": {
+        "length": 800,
+        "hashes": {
+          "sha256": "8fb9e1e2a3d861f6e5a27a74e034b17a37200ea3044d7ed99d6f2afe69277fa5"
+        }
+      },
+      "gping.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "6b7501516ba5fffea91768afb0aa66f6d5b49342712b9e2a92d0401d5b53ef15"
+        }
+      },
+      "asciinema.json": {
+        "length": 829,
+        "hashes": {
+          "sha256": "5957fad6cf0a3f8fed91bf1a07e2d95312feacdabae4f7934259c2215052b2f2"
+        }
+      },
+      "luajit.json": {
+        "length": 814,
+        "hashes": {
+          "sha256": "4ab6abb2dd522446eb3b138aaaa7842de4038015ef6213490b1f97d25e4749ea"
+        }
+      },
+      "just.json": {
+        "length": 771,
+        "hashes": {
+          "sha256": "af6611e8a1fe427a720ebc7c1c1fe3ce6c5de28d1699d09eb9d289122822832b"
+        }
+      },
+      "gh.json": {
+        "length": 796,
+        "hashes": {
+          "sha256": "4a98736f353a2db343845a132bcb5694eceeafc7bbc35a7dfc3511085a1ae349"
+        },
+        "custom": {
+          "aliases": [
+            "github-cli"
+          ]
+        }
+      },
+      "goose.json": {
+        "length": 786,
+        "hashes": {
+          "sha256": "a24d141c4c2b5488634610d84ac218c00de197e15f37a3859f8ff4b65ea90e96"
+        }
+      },
+      "minikube.json": {
+        "length": 801,
+        "hashes": {
+          "sha256": "60069bfe497c9954502a1f6ee59b57cc4cfe00fb717383098c0caf243d25ce72"
+        }
+      },
+      "xz.json": {
+        "length": 1670,
+        "hashes": {
+          "sha256": "2ad3e4139aa62b8db515918cb8c9b501d1844384adcc8f3e8ad744c7f68b4b45"
+        },
+        "custom": {
+          "aliases": [
+            "xz-utils"
+          ]
+        }
+      },
+      "fnm.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "95f3127277833d0b526d08aead2fe1896284d3a4b5c31b603c6c2fbd03791e0a"
+        }
+      },
+      "cmake.json": {
+        "length": 1076,
+        "hashes": {
+          "sha256": "77c04e565edb90ff1f42d63d6e6357409e5fea38fbd458e00b1352d462219ba9"
+        }
+      },
+      "intermodal.json": {
+        "length": 793,
+        "hashes": {
+          "sha256": "303085c894c5c80c7f9a8ef18085ad87bd6bf0410ad5f004a0c957bbc2f56491"
+        },
+        "custom": {
+          "aliases": [
+            "imdl"
+          ]
+        }
+      },
+      "duf.json": {
+        "length": 777,
+        "hashes": {
+          "sha256": "763a00a6f43a989f8d40861fb2feeb8eb2906ca5199c4f4fefb6731ad75f0086"
+        }
+      },
+      "eza.json": {
+        "length": 791,
+        "hashes": {
+          "sha256": "a3745a328b4411ca1ff9a7c5163acd3052dc8718d4fcea8341e41f268b34ecc2"
+        }
+      },
+      "op.json": {
+        "length": 805,
+        "hashes": {
+          "sha256": "02c6bd4ff53656f9d393d2fa5a3efba5e5d4af2a040ca00b10bbc0b663b43f8d"
+        }
+      },
+      "lazydocker.json": {
+        "length": 842,
+        "hashes": {
+          "sha256": "4522519304f129e7c1b5225b09ccb1cf17fa41fdd7a96ec10191ea594fa2a05d"
+        }
+      },
+      "zlib.json": {
+        "length": 950,
+        "hashes": {
+          "sha256": "e7b96f7e5b53910ee06a4b360f1acca1b6af4eeecdb5fb5c42998f831de34daa"
+        }
+      },
+      "vivid.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "e4c8085438978c191f2d7a74316d26bbc8cf9860ebb99e2db80fda2ec51534a8"
+        }
+      },
+      "atuin.json": {
+        "length": 781,
+        "hashes": {
+          "sha256": "bba78819b12105a4aefac8834e7b27d222609979d9310f61e9ea078979a8ce96"
+        }
+      },
+      "xh.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "8899da814315565809278213fc8849cf3ce38f0b03aa8f419ebad35595dcf405"
+        }
+      },
+      "ouch.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "30b2cbec5a1e8d954fa7487b8785acb43ebc57f926c98d08ab944ee45e8ab2b7"
+        }
+      },
+      "direnv.json": {
+        "length": 805,
+        "hashes": {
+          "sha256": "843be7cf7bbb6c84e830f4ec62ead4640aae348e520d8c6395f07ba9bb9ccd3c"
+        }
+      },
+      "flux.json": {
+        "length": 1286,
+        "hashes": {
+          "sha256": "58c755e0c7e3d6847319fdbfb9f7c73b6927330ff301bdb557e0f02e9bbbcc72"
+        },
+        "custom": {
+          "aliases": [
+            "fluxcd"
+          ]
+        }
+      },
+      "k9s.json": {
+        "length": 797,
+        "hashes": {
+          "sha256": "582f63f198ab89d34a0302c43e317d0dcf1614290d38f595763153ff26ef3681"
+        }
+      },
+      "git-lfs.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "46c2d7b2d8420470ebb8fdb582b40d4ec535cb47d2fc5445c020c6ad73ad0f2a"
+        }
+      },
+      "opencode.json": {
+        "length": 804,
+        "hashes": {
+          "sha256": "75dc160b183d93f1115082d5fa34065734a88c3e38c3623db539c457cb31c8ca"
+        }
+      },
+      "bat.json": {
+        "length": 795,
+        "hashes": {
+          "sha256": "26d808d720b63610ce0f7e674f34e5cc9f014614970aa4f7ec60fa70f2539ef6"
+        }
+      },
+      "raspberry-pi-imager.json": {
+        "length": 535,
+        "hashes": {
+          "sha256": "2247c67e0b42116e53a0407193757e507acc998f8822f0986dbd56d78d62a2d8"
+        },
+        "custom": {
+          "aliases": [
+            "rpi-imager"
+          ]
+        }
+      },
+      "act.json": {
+        "length": 781,
+        "hashes": {
+          "sha256": "990abb89ba4b25208d79a352d0d4b5b8a0e005b5e76e482a122dc53657e19957"
+        }
+      },
+      "procs.json": {
+        "length": 800,
+        "hashes": {
+          "sha256": "7118532226ebcd51a249e8fdf1f24d30677efe7325a97e19284c0e97b7d3e39d"
+        }
+      },
+      "skaffold.json": {
+        "length": 830,
+        "hashes": {
+          "sha256": "b591c81e0ead4a82fc04b568fd40f9cc3c42f9e55a05d14a852259997e20db1f"
+        }
+      },
+      "helm.json": {
+        "length": 788,
+        "hashes": {
+          "sha256": "1640a03d9ac0528e016d3cb7baf2fb63f5ed68e99dc59649b3dabb282640a879"
+        }
+      },
+      "tree.json": {
+        "length": 826,
+        "hashes": {
+          "sha256": "5ce2c39aed053535fdfe3b3e4e9aa1aca94fe8b8dfacc6a4f58e7ae625f16c47"
+        }
+      },
+      "restic.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "15757399f28653decd55a5b39ad6acd88a0c512ba7cd7d23727a66c306c31496"
+        }
+      },
+      "hubble.json": {
+        "length": 1316,
+        "hashes": {
+          "sha256": "9b7a9d3dcc8e8cc85bf237e16c97556436c8fd0842a15a122fd65c39fdbd94e2"
+        }
+      },
+      "kubeconform.json": {
+        "length": 839,
+        "hashes": {
+          "sha256": "032b08ef9ceb163aea3ca3c72b85e28788aa6bca6ea94dc17ea4d95453b8117c"
+        }
+      },
+      "dprint.json": {
+        "length": 799,
+        "hashes": {
+          "sha256": "469f8382e32613f1d38a22c71a8e7c570338b65232a6cf20e1898b5aea9a42e5"
+        }
+      },
+      "cargo-nextest.json": {
+        "length": 828,
+        "hashes": {
+          "sha256": "ce1c531d42af49367371732f17a7815f13225d3c161ee876400896eecc2d32a1"
+        },
+        "custom": {
+          "aliases": [
+            "nextest"
+          ]
+        }
+      },
+      "velero.json": {
+        "length": 811,
+        "hashes": {
+          "sha256": "5707dfb789ffb6a922dde5149f022c41ad8001ce31fa6b3c45edafaac944c744"
+        }
+      },
+      "sd.json": {
+        "length": 763,
+        "hashes": {
+          "sha256": "a031df08597b0defadb44c6e311e057cb389327f6b25fa90f754c65353f23bf1"
+        }
+      },
+      "gitui.json": {
+        "length": 815,
+        "hashes": {
+          "sha256": "ce5dc39a711cce73a20571e2a1674e9832f2a424781dd8cc4b8d92f4cbc05eea"
+        }
+      },
+      "stylua.json": {
+        "length": 805,
+        "hashes": {
+          "sha256": "3c3d830198ebfdd4cd00ddf7dd64134b27cb16cdb95f3e8aa9db2fb7649bc5a6"
+        }
+      },
+      "utm.json": {
+        "length": 428,
+        "hashes": {
+          "sha256": "7c39728c0b75fcd1a16264ebd7462a720734a25c2c7590d43bd917846da9ea43"
+        }
+      },
+      "wget.json": {
+        "length": 814,
+        "hashes": {
+          "sha256": "835003b4851ce275219cc0f065bd0b9bc91b057256ef4d7d57ad0def8335d476"
+        }
+      },
+      "check.json": {
+        "length": 755,
+        "hashes": {
+          "sha256": "e1992929904f0a60ea8a0a70b1b3bd20d1681baf0e7be1bbd36c2eff07127827"
+        }
+      },
+      "libcbor.json": {
+        "length": 746,
+        "hashes": {
+          "sha256": "c80ccedf962be7bb0259626fb2940ef146dd7aaf33ed4ca86d49c72068f29a55"
+        }
+      },
+      "argc.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "13d8ed6ab3d4233d9eeec8a71044538a94c51275d297dded1e083693071325cf"
+        }
+      },
+      "bacon.json": {
+        "length": 810,
+        "hashes": {
+          "sha256": "088d90dc5473089df1dd9092892278dfef1f932c54d7c36140f178f191f88094"
+        }
+      },
+      "gron.json": {
+        "length": 775,
+        "hashes": {
+          "sha256": "eebba3d9c32670a6902c36ed32143e9fe1ff2a5867ba5ff489d41b983581123d"
+        }
+      },
+      "htop.json": {
+        "length": 778,
+        "hashes": {
+          "sha256": "0b61cdd9b75ec3319b1da6408957bf2d09fd6540c3d4d55ba00c1fe301cc023d"
+        }
+      },
+      "dive.json": {
+        "length": 790,
+        "hashes": {
+          "sha256": "a4eeb71ca7b2d7ab429407955ebc6d4fa20f9fcf8db29d7e8f0b254591667587"
+        }
+      },
+      "k3d.json": {
+        "length": 770,
+        "hashes": {
+          "sha256": "15b7038c5f179d23288e9af6bb457cf109959c860ecaae2c570960dab2dc53f4"
+        }
+      },
+      "agg.json": {
+        "length": 814,
+        "hashes": {
+          "sha256": "c39d5fb8562c1820af16f50cc5521570f26821e442e0e25490aa408ce2033e8e"
+        }
+      },
+      "crane.json": {
+        "length": 836,
+        "hashes": {
+          "sha256": "d921f205ef642b6eb3791e66bc6a7ce863baa0e036ca096660f5a841b7ebe196"
+        }
+      },
+      "ncurses.json": {
+        "length": 874,
+        "hashes": {
+          "sha256": "8f507ad9680d0feac0208fae04ec7ba8e7f7ec61aeedbe768bcbb1d0f27e1f84"
+        }
+      },
+      "chezmoi.json": {
+        "length": 793,
+        "hashes": {
+          "sha256": "b12687d701bf82f7fe1d6c195730276ab68a75af024e93d82e07807d4fa80039"
+        }
+      },
+      "pkgconf.json": {
+        "length": 882,
+        "hashes": {
+          "sha256": "b8fb4f7f85f9bb2557e4043e568b6603c69556fe7859d7bbf5d66f008468a17d"
+        },
+        "custom": {
+          "aliases": [
+            "pkg-config"
+          ]
+        }
+      },
+      "git-cliff.json": {
+        "length": 819,
+        "hashes": {
+          "sha256": "c2ef602785b207898f08c552c3d9428e894d9f76885a15f3f464b858220e0362"
+        }
+      },
+      "expat.json": {
+        "length": 1298,
+        "hashes": {
+          "sha256": "2dddae9c46742cb5ccb249be8da8913481e315950faa105ad0901aa3b84da9a4"
+        },
+        "custom": {
+          "aliases": [
+            "libexpat"
+          ]
+        }
+      },
+      "make.json": {
+        "length": 798,
+        "hashes": {
+          "sha256": "c2fe58e0b5cbef6e0a9bf02204e35b8eef45b2509c52b60c68c8cf9e857224c6"
+        }
+      },
+      "rsync.json": {
+        "length": 1038,
+        "hashes": {
+          "sha256": "aa6021f678cf9dac0569cc880e0a1fbec36332a9dd2f03d37773c11390dfcaa9"
+        }
+      },
+      "krew.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "b8d08261e8cac88c417236e4dd2ffd7a8731932c6ffdf4dd2cfd611a09665419"
+        }
+      },
+      "uv.json": {
+        "length": 1331,
+        "hashes": {
+          "sha256": "20da41091dd8d7c713d73be2d9ddd69c4ee7079717ca90056c3ba8cdaaba56ec"
+        }
+      },
+      "trivy.json": {
+        "length": 800,
+        "hashes": {
+          "sha256": "2d4852cb3d5edcf97a82c2a146c671026f5cf90aaad04deeb65954172a1ce98b"
+        }
+      },
+      "btop.json": {
+        "length": 806,
+        "hashes": {
+          "sha256": "17b1d007b2964ab931c7c747a2f5cc380a6154be0dd85cad78be5883b0f7e56a"
+        }
+      },
+      "go.json": {
+        "length": 802,
+        "hashes": {
+          "sha256": "5682942646c1260ba71b2c890dffb3667786e1ee9d9cb804060252dcf16030d2"
+        }
+      },
+      "mise.json": {
+        "length": 1286,
+        "hashes": {
+          "sha256": "ef483fa19de64c1411a7e93c59f7cdfdd5074e8b097200b7eb7f6e7d79acbb13"
+        }
+      },
+      "libfido2.json": {
+        "length": 933,
+        "hashes": {
+          "sha256": "bbf400a553f420e44f6ec83f8372d75cca977f93003d4d96bc6b4dd7bba9690c"
+        }
+      },
+      "grype.json": {
+        "length": 820,
+        "hashes": {
+          "sha256": "40cea204a5a61acffbe9167efec14277ddc38dbefa3c36615daed8f6cfd2d33d"
+        }
+      },
+      "lazygit.json": {
+        "length": 826,
+        "hashes": {
+          "sha256": "21f50681f5bbbc51077f75e948b00ea84241730af3c5d96cc8144587f8adfb7d"
+        }
+      },
+      "gmx.json": {
+        "length": 446,
+        "hashes": {
+          "sha256": "f12761c31cff69d2e1b1a82227ae88007e43b801e125270763fb91a82ce20a6c"
+        }
+      },
+      "raycast.json": {
+        "length": 477,
+        "hashes": {
+          "sha256": "e03a8e87ec6ea02e991afd4d851310e2b6ff176047301af48851c2233cac1024"
+        }
+      },
+      "oha.json": {
+        "length": 774,
+        "hashes": {
+          "sha256": "4000d5da81a48c32181bd18298c4ad58d2110dfb3ac9be30c124d2ba1b7c7ceb"
+        }
+      },
+      "zoxide.json": {
+        "length": 808,
+        "hashes": {
+          "sha256": "84be6616f681bcae7f0107c3169b167d3cacb54b177601db4fd5c47fa84c15db"
+        }
+      },
+      "gengetopt.json": {
+        "length": 837,
+        "hashes": {
+          "sha256": "9b2adb73bbcd1ac8a92a50426b12bfcc429df0fd72f1c2900ab9b3423c4932fb"
+        }
+      },
+      "tmux.json": {
+        "length": 767,
+        "hashes": {
+          "sha256": "303fc6b3e4f485e9b98c4eab8e312085d6bf167c559e58e17daa1cad50288d3c"
+        }
+      },
+      "argocd.json": {
+        "length": 811,
+        "hashes": {
+          "sha256": "1227f56052e5361713b8385e96a5ca3b969a4e998eaff629ccd68f57ed20264a"
+        }
+      },
+      "oras.json": {
+        "length": 783,
+        "hashes": {
+          "sha256": "8e85119f83c3260f3b157abdf1d4d2572ee398945eae82428cd77bb85ce86072"
+        }
+      },
+      "helium.json": {
+        "length": 860,
+        "hashes": {
+          "sha256": "2c0f831dd12ecb0829821b09b452737a9d2a06895d7034eb57d9bff4e4a30fe2"
+        },
+        "custom": {
+          "aliases": [
+            "helium-browser"
+          ]
+        }
+      },
+      "lua.json": {
+        "length": 800,
+        "hashes": {
+          "sha256": "8f2adcc470b16a9d4d13b7e719393bf00eac71629dbe45d13abd165f2864cff0"
+        }
+      },
+      "jless.json": {
+        "length": 413,
+        "hashes": {
+          "sha256": "f19f51b686383f54474e7543794258ef2f11fb2d9db5510e179ff2c9d458de2c"
+        }
+      },
+      "gofumpt.json": {
+        "length": 819,
+        "hashes": {
+          "sha256": "31aaabe67161b98f23e60476e0b40b272cc1e67501680ce38e1c6bc7c1cced01"
+        }
+      },
+      "doggo.json": {
+        "length": 799,
+        "hashes": {
+          "sha256": "a40e2ad32821d63286da1a65bdac045d6589e0ae3afdd538fcf6b16dddd66f6c"
+        }
+      },
+      "navi.json": {
+        "length": 811,
+        "hashes": {
+          "sha256": "ad7bbd5c4172aa9aa275cb791c69b36f31ac7674f4459ef07533d6b8eafb28d5"
+        }
+      },
+      "tree-sitter.json": {
+        "length": 855,
+        "hashes": {
+          "sha256": "6665f35a100615008bd119d93c53145dc6cfddc4a62b887b028b305a13505937"
+        },
+        "custom": {
+          "aliases": [
+            "tree-sitter-cli"
+          ]
+        }
+      },
+      "jq.json": {
+        "length": 757,
+        "hashes": {
+          "sha256": "cc81fd0bc0721c89f4726ea9aaf5d39fff2771ea20b6e22e5007876bb8334c10"
+        }
+      },
+      "grpcurl.json": {
+        "length": 814,
+        "hashes": {
+          "sha256": "03d0f1909efd767a378c93c60a4f7079a103e3be6e1d337b28dc66491adb82c9"
+        }
+      },
+      "prtui.json": {
+        "length": 799,
+        "hashes": {
+          "sha256": "c3d6b705254617076260bd2b22086e5b0d610565039475e29070d01403a897b8"
+        }
+      },
+      "hexyl.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "fbd5e64f81a3882f0d34fd257ee88cf6b002c569af6809c8ffbb35936495f518"
+        }
+      },
+      "libevent.json": {
+        "length": 751,
+        "hashes": {
+          "sha256": "23fd75eb5bb3ba9084236266a14de2ec9f2f784d61b065cf62445617e40ee4f1"
+        }
+      },
+      "grex.json": {
+        "length": 805,
+        "hashes": {
+          "sha256": "a680436f7ec165cbec61c72155ca44104c4ad3500c912f42c67de5aba34167bc"
+        }
+      },
+      "tinycast.json": {
+        "length": 475,
+        "hashes": {
+          "sha256": "24697cee2705e4d0ffc35b82a90f45fad06d5ddb1439d8f41740625abc1ce921"
+        }
+      },
+      "tokei.json": {
+        "length": 811,
+        "hashes": {
+          "sha256": "48c65c7741c1fe02d9810749421a4be400ba3a7fe3e92b7f0489a5c4603ec5b0"
+        }
+      },
+      "libidn2.json": {
+        "length": 866,
+        "hashes": {
+          "sha256": "afe7c9042944ee3284cd56156714e1710209ed64790e22546ee5a2986a8c76fe"
+        }
+      },
+      "git.json": {
+        "length": 960,
+        "hashes": {
+          "sha256": "b6bebc22332d9eebddd0d7ea786dd195643a580a0fe6acb0b54268445e65a4cb"
+        }
+      },
+      "discord.json": {
+        "length": 456,
+        "hashes": {
+          "sha256": "f133b6ab62acb620ae043753bf6670d9985e50e58e3bffd9a6c6a79705f1d069"
+        }
+      },
+      "starship.json": {
+        "length": 804,
+        "hashes": {
+          "sha256": "5374ee0c0d668faf30c4f4398bf06e989c0055e7f943c6e882f07b16f7ba1f6f"
+        }
+      },
+      "kubeseal.json": {
+        "length": 841,
+        "hashes": {
+          "sha256": "211c45586b72a8e6ad051b4d1b5211bbddbbf0e4a3ec3d15409c6e1402a5bcea"
+        }
+      },
+      "pastel.json": {
+        "length": 804,
+        "hashes": {
+          "sha256": "506ff7f41e4e6a47b63163d570d850a7c8e90b0219c156bccfd6799d20f6b9f6"
+        }
+      },
+      "miniserve.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "4ecd9e7ada1e1776f3a28d83346e071ee260ead7bef69e6e7ba04ae96f5c1c50"
+        }
+      },
+      "mkcert.json": {
+        "length": 824,
+        "hashes": {
+          "sha256": "afc6c40f77eab3059ed0a9ca20f4e48ce34d86e8ac4e2cb21da1cb78c2d7d973"
+        }
+      },
+      "taplo.json": {
+        "length": 791,
+        "hashes": {
+          "sha256": "8ae4793cc0924fb5204078fb7cf1c2461f8400d83331a9b705350b05003264cc"
+        }
+      },
+      "libunistring.json": {
+        "length": 792,
+        "hashes": {
+          "sha256": "71d8d9ae9a0e6f5b8c375bff66b4cb5afe649322310aa66cb7833c8b8d02b961"
+        }
+      },
+      "byacc.json": {
+        "length": 822,
+        "hashes": {
+          "sha256": "ac72435133856fe1052b9794bd77d27ddf77d8f386202aaa478ae823c35c8937"
+        }
+      },
+      "less.json": {
+        "length": 905,
+        "hashes": {
+          "sha256": "538536f411baeb0bbcf8f5a6b11011405065f0aa451f183622867f0292e879ee"
+        }
+      },
+      "rustic.json": {
+        "length": 810,
+        "hashes": {
+          "sha256": "263de1a5ccff2af97184e0a6e70d1ba9895baf21e85f3a3724922cd1c4b6602d"
+        }
+      },
+      "cosign.json": {
+        "length": 813,
+        "hashes": {
+          "sha256": "cc53c1127f6247c01e7bebd2ceafc4115be7da6f18f0c87b708099f162c17c34"
+        }
+      },
+      "rage.json": {
+        "length": 1069,
+        "hashes": {
+          "sha256": "127480b3e6cac242bff28bdf35ef5af12db4e31b2bd0e1226a70c841a3178e89"
+        }
+      },
+      "orbstack.json": {
+        "length": 485,
+        "hashes": {
+          "sha256": "d9005cd4906dfc55a08ecdf50a1418d98578ebd9387aa8525c97a3af33a57610"
+        }
+      },
+      "copilot-money.json": {
+        "length": 493,
+        "hashes": {
+          "sha256": "9845e700c9274eb276b4f4ca50381617319c4514c2dd44eca294184aeaeb3577"
+        }
+      },
+      "curl.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "c5163bc1996f1d6eacfaef81370a3fdf892672ef06b1efbecc836302cdccb345"
+        }
+      },
+      "lsd.json": {
+        "length": 800,
+        "hashes": {
+          "sha256": "8425d530eed3cae4f3cc9821630d1b69b31c59363f4447392758710532bf5825"
+        }
+      },
+      "devspace.json": {
+        "length": 808,
+        "hashes": {
+          "sha256": "c74ee38053b62bbd3bea06fba571eb37576e19458e40203753fa58788ec62137"
+        }
+      },
+      "google-chrome.json": {
+        "length": 523,
+        "hashes": {
+          "sha256": "c840898e14653a92d7485eaaa3c5ff6744c2210ba5333c31e3b85e3fc459c9ed"
+        },
+        "custom": {
+          "aliases": [
+            "chrome"
+          ]
+        }
+      },
+      "migrate.json": {
+        "length": 828,
+        "hashes": {
+          "sha256": "2a82860ebe7862b1828165259e1264d3d335409aa8169bb45ecd2409a3949791"
+        },
+        "custom": {
+          "aliases": [
+            "golang-migrate"
+          ]
+        }
+      },
+      "fzf.json": {
+        "length": 788,
+        "hashes": {
+          "sha256": "8eece3841581eed3633d5638613d1fac248c8f83f9272aea4c8f1f85d8d8421b"
+        }
+      },
+      "rootbeer.json": {
+        "length": 2783,
+        "hashes": {
+          "sha256": "508c1470f8aee9e4619fefc85d7ea873f3d7e233e53b6eb40650297c34cab396"
+        },
+        "custom": {
+          "aliases": [
+            "rb"
+          ]
+        }
+      },
+      "dufs.json": {
+        "length": 803,
+        "hashes": {
+          "sha256": "87b5f2dff36376410e31577a1bf7795d1fcf95df4ad45e0779e25a9250508308"
+        }
+      },
+      "syft.json": {
+        "length": 1291,
+        "hashes": {
+          "sha256": "8ecc602802b0f508bd892787e55fd651d3b87d56a3d33ceda29efafda0dc6eff"
+        }
+      },
+      "rclone.json": {
+        "length": 790,
+        "hashes": {
+          "sha256": "8bad3043981ad379fe8168e70f9764a1ac8db5cc253397c0a1f44ebabfdc2522"
+        }
+      },
+      "bash.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "1609a0766e560691e5f205798275c03d0cf157d12492333ed78590ac984c3615"
+        }
+      },
+      "zellij.json": {
+        "length": 792,
+        "hashes": {
+          "sha256": "50b411a0966096edea22c27f566f678483066d59014931c820be1c2c0370e323"
+        }
+      },
+      "lefthook.json": {
+        "length": 1281,
+        "hashes": {
+          "sha256": "ea8a18930a4e51ac9cf9dde38dc8f2a4b830ec3b0e11eaebf9053d3d00a7f846"
+        }
+      },
+      "libxcrypt.json": {
+        "length": 606,
+        "hashes": {
+          "sha256": "67773913fe810a4a4a6e2c783220d95015e5aa43317544a4316ad919243a6790"
+        }
+      },
+      "ghostty.json": {
+        "length": 446,
+        "hashes": {
+          "sha256": "da1a4c1f94f9f375e92ade75b28554dd6bf9c2987e3d78e33184d462551f8aa6"
+        }
+      },
+      "cloudflared.json": {
+        "length": 853,
+        "hashes": {
+          "sha256": "8ef4015d61308aa42efc97ecbbf2bacb980b6432839a30d2eb316f4f86e4e068"
+        }
+      },
+      "nghttp2.json": {
+        "length": 718,
+        "hashes": {
+          "sha256": "e390c45e12db5438d3c45ab75c7fbd4fcc13d3cc9685cb3d8cf15dd8e303f4a7"
+        }
+      },
+      "difftastic.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "7efab1f9b26979ee38ec5f7770b92d59f5e34950980cef5eccaf553ffb4c137e"
+        },
+        "custom": {
+          "aliases": [
+            "difft"
+          ]
+        }
+      },
+      "fastfetch.json": {
+        "length": 815,
+        "hashes": {
+          "sha256": "49bb09f3492c1390fe8f55baba34c339a1f396c5382c9a4f18717f1e5e6727d6"
+        }
+      },
+      "lz4.json": {
+        "length": 1118,
+        "hashes": {
+          "sha256": "69b3b828a2f618215052599a39e00bd04002381cb093f65814ea8884eb90f661"
+        }
+      },
+      "helix.json": {
+        "length": 796,
+        "hashes": {
+          "sha256": "2151ee56dca0d2236b1687677af8ff727394962415b25096db8be18d2ca68a67"
+        },
+        "custom": {
+          "aliases": [
+            "hx"
+          ]
+        }
+      },
+      "task.json": {
+        "length": 1273,
+        "hashes": {
+          "sha256": "c5f775264df4b265552e101da089a03b095fe9378a2887d7f3102494358e1eb0"
+        },
+        "custom": {
+          "aliases": [
+            "go-task"
+          ]
+        }
+      },
+      "docker-compose.json": {
+        "length": 852,
+        "hashes": {
+          "sha256": "aff10e2252ba19014b6afcac23e6a51f883e690625de57442ae40feb85a97733"
+        }
+      },
+      "7zip.json": {
+        "length": 878,
+        "hashes": {
+          "sha256": "ae9e30aac975fe18b26d1e3cb37d9eff6d28fd8f9479a23ca770982ff8a4e037"
+        },
+        "custom": {
+          "aliases": [
+            "7zz",
+            "sevenzip"
+          ]
+        }
+      },
+      "bandwhich.json": {
+        "length": 814,
+        "hashes": {
+          "sha256": "cccee790abbef1cec5556350f58f23eedce1227a76c6f1d45539bf1237a093fe"
+        }
+      },
+      "yq.json": {
+        "length": 790,
+        "hashes": {
+          "sha256": "537562ba7e2e8019880483d230cbde1324406b538e413307012874b0992dbf0b"
+        }
+      },
+      "topgrade.json": {
+        "length": 834,
+        "hashes": {
+          "sha256": "b4fcec9089e6bfa2c527397515cf041da8f4c627e91cc6501ef7612d5320852d"
+        }
+      },
+      "xxhash.json": {
+        "length": 1329,
+        "hashes": {
+          "sha256": "2c35042b67c2a54bdd1af7bc3a61019290711de39c2ad54f8bd3bcf06ab10ad6"
+        },
+        "custom": {
+          "aliases": [
+            "xxhsum"
+          ]
+        }
+      },
+      "watchexec.json": {
+        "length": 807,
+        "hashes": {
+          "sha256": "97a5133fa0f66bffb76b555c7067d87580683124cb264b38132f711e657589a2"
+        }
+      },
+      "nghttp3.json": {
+        "length": 726,
+        "hashes": {
+          "sha256": "afce2afb9916ab68c766478da7e1063b448f6f498e9e4efc768215182538e988"
+        }
+      },
+      "kitty.json": {
+        "length": 871,
+        "hashes": {
+          "sha256": "06eaac77f47b8c00cc4449f6fc0dbb64028c7e678acc91a8e69be0337007fbbd"
+        }
+      },
+      "stern.json": {
+        "length": 809,
+        "hashes": {
+          "sha256": "fcef2aad0affac83945a368e339c7d43f25d9c6d8a80f52e1d5077ebf08c9154"
+        }
+      },
+      "aldente.json": {
+        "length": 460,
+        "hashes": {
+          "sha256": "7abd935aac832f3d8d2eda6d4a06fc105227fedda3445c47c3638288759b512b"
+        }
+      },
+      "gdu.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "41d7d213a2f7f91a0c7ef969921ede72bc1a3fa7fc427e2eccdc7f15998000f5"
+        }
+      },
+      "rush.json": {
+        "length": 1019,
+        "hashes": {
+          "sha256": "67e4a171ffb45a3ca7509c774048b084e9dd8c4558a41423ebc1f83205ee4322"
+        }
+      },
+      "cleanshot.json": {
+        "length": 469,
+        "hashes": {
+          "sha256": "897da9109563ceecfad7d0e95a83072c39403addfca6c6d5ab8b83d7c21f74a1"
+        }
+      },
+      "ko.json": {
+        "length": 795,
+        "hashes": {
+          "sha256": "b4b5c71199b87d69ed763a1c681607a7b141363bac7b7447c6d79020939a76d3"
+        }
+      },
+      "neovim.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "730fb524147d947dfec38b1073cb614c4a48d1450213164190d225c0c158c322"
+        },
+        "custom": {
+          "aliases": [
+            "nvim"
+          ]
+        }
+      },
+      "bobrwm.json": {
+        "length": 485,
+        "hashes": {
+          "sha256": "9067130db1fdb522a2af41ea46f226ca4b05443a5ac04f071a029005dbf523d9"
+        }
+      },
+      "caddy.json": {
+        "length": 793,
+        "hashes": {
+          "sha256": "7c72c8f4bc30ce274ae46a756564a340cff4219381a4a4660847c7fbb59114be"
+        }
+      },
+      "talosctl.json": {
+        "length": 812,
+        "hashes": {
+          "sha256": "6124f6916978f912fff2f8c70e1afddc1c2ac337041a2c0c0123febdc74e463a"
+        }
+      },
+      "betterdisplay.json": {
+        "length": 500,
+        "hashes": {
+          "sha256": "dc2c2473c0a486de126d9d79ee7545a44b2ba284a14df74daa8dfba12b6c8f3b"
+        }
+      },
+      "jj.json": {
+        "length": 811,
+        "hashes": {
+          "sha256": "c3fa9defef8517dcb48f738198a52439aec357881ff9269286b53d28e32d409c"
+        },
+        "custom": {
+          "aliases": [
+            "jujutsu"
+          ]
+        }
+      },
+      "sqlite.json": {
+        "length": 808,
+        "hashes": {
+          "sha256": "18e3335f6955ced540fe146ddcce7be2a89c783056aa51048f265c205427095d"
+        },
+        "custom": {
+          "aliases": [
+            "sqlite3"
+          ]
+        }
+      },
+      "broot.json": {
+        "length": 781,
+        "hashes": {
+          "sha256": "6e0d00d0f67b3786731c8be18fb20d376f4bda351e6a194ef461234e12ebeca6"
+        }
+      },
+      "cilium-cli.json": {
+        "length": 831,
+        "hashes": {
+          "sha256": "fc710b2025af8a7562a2ba797a5bb19107a9a670e994af76a282e6162d6ffc51"
+        }
+      },
+      "yazi.json": {
+        "length": 806,
+        "hashes": {
+          "sha256": "3f2b16fbebef5d9ff00012e21d6e8f3695500507ee8539d111e341a65d0522f6"
+        }
+      },
+      "shfmt.json": {
+        "length": 787,
+        "hashes": {
+          "sha256": "59f4bdc7756b37818726036c5393311955b78abeeb20407e42312b0ac3e9208d"
+        }
+      },
+      "rust-analyzer.json": {
+        "length": 866,
+        "hashes": {
+          "sha256": "df69f6478cfe72d1f1a12da4865acd5b54caa1a4379f9a9cc444b98246eda355"
+        }
+      },
+      "croc.json": {
+        "length": 795,
+        "hashes": {
+          "sha256": "9509a28baf451fd8e3140c860bb2ada829821e3f42923210e30afe47c2532fbd"
+        }
+      },
+      "bottom.json": {
+        "length": 794,
+        "hashes": {
+          "sha256": "e7e086a269d0d9aa2b698ea56fa679099ef34e0908b1368908c38179c7299749"
+        },
+        "custom": {
+          "aliases": [
+            "btm"
+          ]
+        }
+      },
+      "shellcheck.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "37053535219717680a850ed45600f14d223d1b4effb12665cb8e7fcf66e0e0d8"
+        }
+      },
+      "krb5.json": {
+        "length": 784,
+        "hashes": {
+          "sha256": "6024f663234ebda16463d0542524633d5e5202d051982a8149267a66fc94f668"
+        }
+      },
+      "age.json": {
+        "length": 832,
+        "hashes": {
+          "sha256": "cb9ca4f495d5b37e3b6fa5a91fda171ea0734aaae98d19ce4d14b3554f92727f"
+        }
+      },
+      "rust.json": {
+        "length": 1063,
+        "hashes": {
+          "sha256": "959a29dee3bdce8c83f80b8ccc3bb937b3920696bb319b2ecc3bf0e66eb91377"
+        }
+      },
+      "libudev-zero.json": {
+        "length": 589,
+        "hashes": {
+          "sha256": "e204bc444b44ae698e362ae62930fa0b0e2c4aaa210f4691c80a4172f5cf4492"
+        }
+      },
+      "yubico-piv-tool.json": {
+        "length": 480,
+        "hashes": {
+          "sha256": "22eec38a260deac0c421a8436f3eb5b55f87befbef7951616759822d881027f8"
+        }
+      },
+      "gitleaks.json": {
+        "length": 807,
+        "hashes": {
+          "sha256": "f2d2137fc78efae27ff6d40da9c0f6e08164d48887ecab819fd04da041b231f4"
+        }
+      },
+      "helmfile.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "3acb834ac788d60008e07d7c878dda5af20a6c40fbb53ebc5eb55113e2a72d74"
+        }
+      },
+      "staticcheck.json": {
+        "length": 829,
+        "hashes": {
+          "sha256": "0ed89fa547cb6988d6f5ff38c57f71d375d6d742f7eb7e813ef7b0e3a1b27f8d"
+        }
+      },
+      "dust.json": {
+        "length": 799,
+        "hashes": {
+          "sha256": "4621205d138ffdb8ce286029bcf1c8047970eb27ccc721386636640737c9885b"
+        },
+        "custom": {
+          "aliases": [
+            "du-dust"
+          ]
+        }
+      },
+      "ripgrep.json": {
+        "length": 816,
+        "hashes": {
+          "sha256": "6177e6c86413c1a8f7cf4f2a005bb2fc7291a4f97485b03b667b41ae933b8234"
+        },
+        "custom": {
+          "aliases": [
+            "rg"
+          ]
+        }
+      },
+      "zig.json": {
+        "length": 779,
+        "hashes": {
+          "sha256": "a127ab7087e9d51deb23614d5309f629188894182b1126d2ad929e9373581453"
+        }
+      },
+      "tflint.json": {
+        "length": 811,
+        "hashes": {
+          "sha256": "4e9dcac36be7b461b72dabf3691ff34af8a2f1dad25a17e574c22120829229b5"
+        }
+      },
+      "ruff.json": {
+        "length": 1276,
+        "hashes": {
+          "sha256": "2a90dc9444ae4d970d63c5a9f7d39b16e045ce3c1fcef11534a4ba6da3e4e626"
+        }
+      },
+      "delve.json": {
+        "length": 775,
+        "hashes": {
+          "sha256": "373adc3a9434112b23a8da4a73b9a106b75eaab148eeea1ce34c59b31839bb4e"
+        }
+      },
+      "cmocka.json": {
+        "length": 756,
+        "hashes": {
+          "sha256": "f07f62f2def4b196cd5ffc15ea967b75051fb691c2ea9f428c547eaf435909c2"
+        }
+      },
+      "tilt.json": {
+        "length": 792,
+        "hashes": {
+          "sha256": "2dcac58169bc6009250ce7e2ad2dfd390eb51c016e27ef0d82357667f78ce257"
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "77c0390bcfc049b124f72fac41be7f303b1dbf0c08805dce85d71d8aa0b2ca35",
+      "sig": "3cbd1975cbcc47f43173dfcc9d25512ef4df6a8a246d7b745f7ee8cf9b7a929d88bbdbaeeb1980fc6c4bc68db264c0e270ec2fe538343ce73934667b9da91d02"
+    }
+  ]
+}
