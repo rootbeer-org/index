@@ -120,3 +120,25 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app.outputs.token }}
         run: gh workflow run deploy.yml --repo rootbeer-org/rootbeer --ref main
+
+  browser:
+    name: Ask the package browser to rebuild
+    needs: deploy
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    environment: index
+    permissions: {}
+    steps:
+      - name: Mint a token to dispatch pdr-browser's deploy
+        id: app
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1
+        with:
+          client-id: ${{ vars.ROOTBEER_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.ROOTBEER_BOT_PRIVATE_KEY }}
+          owner: rootbeer-org
+          repositories: pdr-browser
+          permission-contents: write
+      - name: Dispatch it
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+        run: gh api repos/rootbeer-org/pdr-browser/dispatches -f event_type=catalog-updated
