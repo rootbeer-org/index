@@ -36,17 +36,22 @@ jobs:
           owner: rootbeer-org
           repositories: pdr
           permission-actions: read
-      - name: Check the run is a push to pdr's main
+      # Every run of pdr's main indexes all of main, so a scheduled run that
+      # took the place of a cancelled push is as good as the push. A pull
+      # request's run is never signed, even from a fork's branch named main.
+      - name: Check the run is of pdr's main
         if: inputs.run-id != ''
         env:
           GH_TOKEN: ${{ steps.app.outputs.token }}
           RUN_ID: ${{ inputs.run-id }}
         run: |
           run=$(gh api "repos/rootbeer-org/pdr/actions/runs/$RUN_ID")
-          jq --exit-status \
-            '.event == "push" and .head_branch == "main" and .path == ".github/workflows/ci.yml"' \
-            <<< "$run" > /dev/null || {
-            echo "pdr run $RUN_ID isn't a push to main" >&2
+          jq --exit-status '
+            (.event | IN("push", "schedule", "workflow_dispatch"))
+            and .head_branch == "main"
+            and .path == ".github/workflows/ci.yml"
+          ' <<< "$run" > /dev/null || {
+            echo "pdr run $RUN_ID isn't a run of main" >&2
             exit 1
           }
       - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
