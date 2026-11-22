@@ -82,9 +82,27 @@ jobs:
         env:
           RUN_ID: ${{ inputs.run-id }}
 
+  site:
+    name: Upload the site
+    needs: sign
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: .
+
+  # Deploying in the job that uploads sometimes finds no artifact yet, and
+  # deploy-pages doesn't retry that.
   deploy:
     name: Deploy
-    needs: sign
+    needs: site
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     environment:
@@ -94,13 +112,6 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-        with:
-          ref: main
-          persist-credentials: false
-      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
-        with:
-          path: .
       - id: deploy
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
 
